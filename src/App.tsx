@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = createSignal(0)
 
   const { user, logIn, logOut } = useAuth()
-
+  console.log(user())
   return (
     <>
       <div>
